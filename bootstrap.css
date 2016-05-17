@@ -1,0 +1,102 @@
+html, body,  .cover{
+	height: 100%;
+
+}
+
+.cover{
+	background:url("design.jpg");
+	background-size: cover;
+	width: 100%;
+	display: table;
+	padding: 0  20px;
+
+}
+
+.cover-text{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-text h1
+{
+	margin: 0;
+	font-size: 70px;
+	letter-spacing: -3px;
+}
+
+nav.navbar-inverse{
+	background: rgba(0,0,0,0.5);
+}
+
+.testimonial{
+	background: #222;
+}
+
+	blockquote{
+		border: none;
+		margin: 0;
+		font-style: italic;
+		font-size: 32px;
+		color: white;
+
+
+	}
+
+	blockquote cite{
+		display: block;
+		margin-top: 40px;
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 16px;
+		font-weight: bold;
+		color: #888888;
+	}
+
+	section {
+		padding: 100px;
+	}
+
+
+	h2{
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 0 0  60px;
+	}
+
+
+	h2+p{
+		text-align: center;
+		margin-top: -50px;
+	}
+
+	#team{
+		background: url("images.jpg");
+		background-size: cover;
+		text-align: center;
+		color: white;
+	}
+
+
+	footer{
+		background: #222;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		font-family: Georgia;
+	}
+
+	@media only screen  and (max width: 568px;)
+
+	{
+		.cover h1{
+			font-size: 40px;
+		}
+
+		section{
+			padding: 40px;
+		}
+	}
